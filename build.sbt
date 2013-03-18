@@ -13,5 +13,5 @@ resolvers ++= Seq(
 
 libraryDependencies ++= Seq(
   "com.chuusai" %% "shapeless" % "1.2.4",
-  "org.scalaz" %% "scalaz-core" % "7.0.0-M8"
+  "org.scalaz" %% "scalaz-core" % "7.0.0-M9"
 )
