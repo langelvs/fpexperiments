@@ -4,6 +4,8 @@ version := "0.1-SNAPNSHOT"
 
 scalaVersion := "2.10.0"
 
+scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
+
 resolvers ++= Seq(
   "Sonatype OSS Releases" at "http://oss.sonatype.org/content/repositories/releases/",
   "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/",
@@ -12,6 +14,7 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "com.chuusai" %% "shapeless" % "1.2.4",
-  "org.scalaz" %% "scalaz-core" % "7.0.0-M9"
+  "com.chuusai" %% "shapeless" % "1.+",
+  "org.scalaz" %% "scalaz-core" % "7.+",
+  "org.spire-math" %% "spire" % "0.+"
 )
