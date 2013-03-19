@@ -12,7 +12,7 @@ import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import scala.collection.immutable._
-import annotation.tailrec
+import scala.annotation.tailrec
 
 import scalaz._
 import scalaz.Scalaz._
