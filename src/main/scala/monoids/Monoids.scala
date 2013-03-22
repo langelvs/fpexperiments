@@ -51,7 +51,7 @@ object Monoids extends App {
 
   val t1 = System.currentTimeMillis
   //val re = range(0, 100000000).foldLeft(0)(b => a => if ( (a % 3 == 0) || (a % 5 == 0)) b + a else b)
-  val re = (0 until 100000000).toStream.foldLeft(0) { case (b , a) => if ( (a % 3 == 0) || (a % 5 == 0)) b + a else b }
+  val re = (0 until 100000000).toStream.foldLeft(0) { case (b , a) => if ( (a % 3 == 0) || (a % 5 == 0) ) b + a else b }
   val t2 = System.currentTimeMillis
 
   println(s"Result = $re in ${(t2 - t1) / 1000.0} seconds.")
