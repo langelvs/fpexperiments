@@ -2,7 +2,7 @@ name := "fpexperiments"
 
 version := "0.1-SNAPNSHOT"
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.10.1"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
 
